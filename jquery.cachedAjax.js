@@ -3,7 +3,8 @@
  * Only tested with jQuery 1.4.4 (early versions - YMMV)
  * 
  *   
- *   http://plugins.jquery.com/project/bgFader
+ *   http://blog.jdeerhake.com/cachedajax-jquery-plugin
+ *   http://plugins.jquery.com/project/cachedAjax
  *
  *
  * Copyright (c) 2011 John Deerhake

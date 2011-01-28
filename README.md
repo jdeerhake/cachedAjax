@@ -18,11 +18,9 @@ Example usage:
       }
     });
 
-When you call  
-    search({ q : "test" });
-an Ajax request is made.  If it is successful, the result is stored in an array and your success callback is triggered with the data (with only the data).
-A repeated call of `search({ q : "test" });` will simply call the success callback with the data stored in the array, no Ajax call is needed.  
+When you call `search({ q : "test" })` an Ajax request is made.  If it is successful, the result is stored in an array and your success callback is triggered with the data (with only the data).
+A repeated call of `search({ q : "test" })` will simply call the success callback with the data stored in the array, no Ajax call is needed.  
   
 To clear the cache, simply call `search.clearCache()`  
   
-For more visit the [project site](http://blog.jdeerhake.com/cached-jquery-plugin).
+For more visit the [project site](http://blog.jdeerhake.com/cachedajax-jquery-plugin).
